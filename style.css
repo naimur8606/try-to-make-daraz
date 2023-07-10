@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #e7e8ec;
+}
+.top-nav{
+    display: flex;
+    justify-content: right;
+    background-color: #e7e8ec;
+    padding: 4px 0;
+}
+.top-nav ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    padding: 0;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    color: #212121;
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    padding: 0 17px;
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+}
+#common-color,.common-color,nav ul li a:hover{
+    color: #f85606;
+}
+.banner{
+    background-color: white;
+    padding-top: 10px;
+}
+.banner-nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    margin: 5px;
+}
+.search{
+    display: flex;
+    background-color: #f2f4fb;
+}
+.search-box{
+    width: 550px;
+    height: 100%;
+    padding: 15px 19px;
+    font-family: Roboto-Regular,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #212121;
+    border: none;
+    background: #f5f5f5;
+    border-radius: 2px;
+}
+.search-icon{
+    background-color: #f57224;
+    width: 30px;
+    height: 44px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+}
+.search-icon img{
+    height: 20px;
+}
+.banner-carousel{
+    margin: 13px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-carousel > ul{
+    font-size: 13px;
+    list-style: none;
+    height: 320px;
+    overflow: scroll;
+    cursor: pointer;
+}
+.carousel-container{
+    width: 85%;
+}
+.shop-btn{
+    position: absolute;
+    bottom: 22px;
+    left: 28px;
+    padding: 7px 33px;
+    background-color: #f55c24;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.shop-btn:hover,.shop-more-btn{
+    background-color: white;
+    color: #f55c24;
+    padding: 7px 33px;
+    border-radius: 20px;
+    border: 1px solid #f55c24;
+}
+.banner-carousel ul{
+    margin-bottom: 0;
+}
+.banner-carousel ul .Women ul{
+    display: none;
+}
+.banner-carousel ul .Women:hover .Girls{
+    display: block;
+}
+.banner-carousel ul .Women:hover .Girls li:hover .Bags {
+    display: block;
+}
+.banner-carousel ul .Mother ul{
+    display: none;
+}
+.banner-carousel ul .Mother:hover .Girls{
+    display: block;
+}
+.banner-carousel ul .Groceries ul{
+    display: none;
+}
+.banner-carousel ul .Groceries:hover .Girls{
+    display: block;
+}
+.pages-link-container{
+    margin: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.page-link{
+    display: flex;
+    align-items: center;
+    width: 22%;
+    background-color: #f2f4fb;
+    border: none;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+}
+.page-link img{
+    height: 55px;
+    border-radius: 50%;
+}
+.page-link-title a{
+    font-size: 18px;
+    color: #000;
+    margin-left: 5px;
+}
+.flashsale-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+}
+.flashsale-container{
+    margin: 40px 40px 10px 40px;
+}
+.flashsale-item-container{
+    background-color: #f2f4fb;
+}
+.flashsale-items{
+    display: flex;
+    justify-content: space-between;
+}
+.flashsale-item{
+    width: 16%;
+}
+hr{
+    height: .5px;
+    background-color: black;
+}
